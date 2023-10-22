@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <section class="sec-01">
+        <div class="con">
+            <h2 class="main-tittle">FREE Pelastine</h2>
+            <div class="contect">
+                <div class="image">
+                    <img src="./886-12.jpg" alt="">
+                </div>
+                <div class="text-box">
+                    <h3>Plastine</h3>
+                    <p>Palestine[i] is a geographical region in West Asia. Situated in the Southern Levant, 
+                        it is usually considered to include Israel and the State of Palestine, though some definitions also 
+                        include parts of northwestern Jordan. In Judeo-Christian traditions, 
+                        Palestine overlaps with several terms including Canaan, the Promised Land, 
+                        the Land of Israel, and the Holy Land.</p>
+
+                </div>
+            </div>
+            <div class="media-icons">
+                <a href="#" class="icons"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="icons"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="icons"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="icons"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="sec-02">
+        <div class="con">
+            <h2 class="section-title">How can we help them</h2>
+            <div class="contect">
+                <div class="image">
+                    <img src="./th (3).jpg" alt="">
+                </div>
+                <div class="info">
+                   <h4 class="info-title">Descraption</h4>
+                   <p>We must not eat from restaurants that support Israel</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec-03">
+        <div class="con">
+            <h2 class="section-title">we must support them</h2>
+            <div class="contect">
+                <div class="media-info">
+                    <li><a href="#"><i class="fab fa-facebook"></i>Facebook</a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i>Instagram</a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i>Twitter</a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i>Youtube</a></li>
+                    <li><a href="#"><i class="fab fa-linkedin"></i>Linkedin</a></li>
+                </div>
+                <div class="image">
+                    <img src="./th (4).jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+       ScrollReveal({ 
+        //reset: true,
+        distance: '60px',
+        duration: 2500,
+        delay: 400
+    });
+        ScrollReveal().reveal('.main-tittle',{ delay: 500, origin: 'left' });
+        ScrollReveal().reveal('.section-title',{ delay: 500, origin: 'left' });
+        ScrollReveal().reveal('.sec-01 .image',{ delay: 600, origin: 'bottom' });
+        ScrollReveal().reveal('.info',{ delay: 600, origin: 'bottom' });
+        ScrollReveal().reveal('.text-box',{ delay: 700, origin: 'right' });
+        ScrollReveal().reveal('.media-icons i',{ delay: 500, origin: 'bottom', interval: 200 });
+        ScrollReveal().reveal('.sec-02 .image',{ delay: 500, origin: 'top' });
+        ScrollReveal().reveal('.sec-03 .image',{ delay: 500, origin: 'top' });
+        ScrollReveal().reveal('.media-info li',{ delay: 500, origin: 'left',interval: 200 });
+    </script>
+
+</body>
+</html>
